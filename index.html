@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>NDATO JEANLUCK</title>
+    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("wJXyGelTgoz56HlQJ");
+      })();
+    </script>
 
-  <title>NDATO JEANLUCK</title>
-  <script src="script.js"></script>
-  <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-   (function(){
-      emailjs.init("wJXyGelTgoz56HlQJ");
-   })();
-  </script>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- =======
+    <!-- =======
      ____.                    .__                 __
     |    | ____ _____    ____ |  |  __ __   ____ |  | __
     |    |/ __ \\__  \  /    \|  | |  |  \_/ ___\|  |/ /
@@ -55,626 +64,1100 @@
 
   ======= -->
 
-  
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/1profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Jeanluck Ndato</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://x.com/IrjeanL" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.facebook.com/jeanluc.ndato" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/iamjeanluckndt" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://github.com/jeanlucndato" class="google-plus"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/jeanluck-ndato-8504641bb/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Accueil</span></a></li>
-          <li><a href="anglais.html" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Anglais</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>A Propos</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projets Perso</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Jeanluck Ndato</h1>
-      <p>Je suis <span class="typed" data-typed-items=" Infosec, Bidouilleur, DevSecOps, Ingenieur, Freelancer,CyberOps, Sys Admin"></span><span class="typed-cursor" aria-hidden="true">|</span></p> 
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>A Propos</h2>
-          <p>Passionné par l'informatique et les nouvelles technologies 
-depuis toujours, je suis actuellement en alternance en tant que 
-technicien système, réseau et Datacenter chez Konnect-Goma.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="assets/img/1profile-img.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light"><a href="index.html">Jeanluck Ndato</a></h1>
+          <div class="social-links mt-3 text-center">
+            <a href="https://x.com/IrjeanL" class="twitter"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/jeanluc.ndato" class="facebook"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/iamjeanluckndt" class="instagram"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://github.com/jeanlucndato" class="google-plus"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/jeanluck-ndato-8504641bb/"
+              class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Admin Sys.</h3>
-            <p class="fst-italic">
-              Tant que Developpeur logiciel j'interviens à Tout le 
-niveau (Front &amp; Back End) en utilisant les langages, Framework et des 
-librairies comme Nodejs, Log4j, React, bootstrap,..
-              mais aussi je garde à jour les sites en corrigeant les 
-différentes failles (XSS, SQL..), tout en proposant de nouvelles 
-fonctionnalités intuitives qui facilitent la prise en main par les 
-utilisateurs finaux😁...</p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Blogue: <a href='https://jeanluckndato.blogspot.com'></strong> <span>JeanLuck Ndato</span></a></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="https://geekstudyn.blogspot.com"><span>www.geekstudy.com</span></a></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+243 976 510 588</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Ville:</strong> <span>GOMA/ RDCONGO</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>XXX</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>LICENCE</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span> <a href="https://jeanlucndato@gmail.com">jeanlucndato@gmail.com</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponible</span></li>
-                </ul>
-              </div>
-            </div>
+        </div>
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto"
+                ><i class="bx bx-home"></i> <span>Accueil</span></a
+              >
+            </li>
+            <li>
+              <a href="anglais.html" class="nav-link scrollto"
+                ><i class="bx bx-home"></i> <span>Anglais</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>A Propos</span></a
+              >
+            </li>
+            <li>
+              <a href="#resume" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Resume</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://jeanlucndato.github.io/cyberinsights/index.html"
+                class="nav-link scrollto"
+                ><i class="bx bx-book-content"></i>
+                <span>Cyberinsights</span></a
+              >
+            </li>
+            <li>
+              <a href="#services" class="nav-link scrollto"
+                ><i class="bx bx-server"></i> <span>Services</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bx bx-envelope"></i> <span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Ndato Jeanluck</h1>
+        <p>
+          Je suis
+          <span
+            class="typed"
+            data-typed-items=" Infosec, Bidouilleur, DevSecOps, BugBounty Hunter, Freelancer, Pentester, Sys Admin"
+          ></span
+          ><span class="typed-cursor" aria-hidden="true">|</span>
+        </p>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>À Propos</h2>
             <p>
-              En tant que SysAdmin Je m'occupe principalement de la gestion de parc info (PC et mobiles), des tickets, et du support utilisateur. J'ai eu également 
-              l'occasion de participer et exécute différents projets, comme Implémentation d’un réseau local IP/MPLS au sein d'une entreprise régionale (900 utilisateurs)
-               et une mise en place d’une infrastructure SDN (software Defined network) au sein d’une entreprise de Télécommunications
+              Passionné par l'informatique et les nouvelles technologies, je
+              suis un chercheur en cybersécurité avec une expertise approfondie
+              en réseaux informatiques et télécommunications.
             </p>
           </div>
-        </div>
 
-      </div>
-    </section><!-- End About Section -->
-
-   <!-- ======= Facts Section ======= -->
-   <section id="facts" class="facts">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Fais</h2>
-        <p>
-          Expert dans l'installation et la configuration de réseaux locaux et étendus. Capable de construire, de maintenir et de surveiller 
-          des systèmes de réseau sécurisés. Expérimenté pour assurer un fonctionnement efficace du réseau à tout moment afin d'éviter les pannes 
-          des utilisateurs et du site Web. Capable de faire la conception, à la planification et à la coordination des systèmes de réseau LAN et WAN.
-        </p>
-      </div>
-
-      <div class="row no-gutters">
-
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch aos-init aos-animate" data-aos="fade-up">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="0" class="purecounter">232</span>
-            <p><strong>Clients Satisfaits</strong> J'ai Réduit le risque de cyberattaques en utilisant des mises à jour automatiques et en formant les plus de 200 employés aux meilleures pratiques 
-              en matière de sécurité de l'information.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="121" data-purecounter-duration="0" class="purecounter">121</span>
-            <p><strong>Projects</strong> Réalisation d'une douzaine de nouveaux projets d'applications Web et offre de support applicatif pour 
-              douzaine d'applications existantes et plusieur autres projet d'Implémentation réseau Lan2Lan, VRRP, MAN,...</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="0" class="purecounter">1453</span>
-            <p><strong>Support Technique</strong> A constamment obtenu un score supérieur de 18 % à la moyenne dans les sondages auprès des clients après les appels.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-          <div class="count-box">
-            <i class="bi bi-people"></i>
-            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="0" class="purecounter">32</span>
-            <p><strong>Analyse de faille</strong> analyse des risques, analyse des logiciels malveillants, détection d'intrusion, 
-              script Python, analyse de données</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Facts Section -->
-
-
-   <!-- ======= Skills Section ======= -->
-   <section id="skills" class="skills section-bg">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Compétences</h2>
-        <p>
-          J'ai des compétences variées mises à par la Programmation, je suis à l'aise avec tout type des OS 
-          mais j'utilise principalement Parrot la distribution Debian de Linux, je fais Dépannage des problèmes de réseau. 
-          Travailler dans un environnement axé sur l'équipe. Fournir une assistance téléphonique et en ligne aux utilisateurs. 
-          Mettre en oeuvre des protocoles de documentation dans les opérations du département.
-    
-        </p>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6" data-aos="fade-up">
-
-          <div class="progress">
-            <span class="skill">Réseaux Télécom <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img
+                src="assets/img/profile-img.jpg"
+                class="img-fluid"
+                alt="Photo de profil"
+              />
             </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Cloud Network <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">CyberSécurité <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="progress">
-            <span class="skill">Python <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Linux <i class="val">93%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">IA &amp; Virtualisation <i class="val">59%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="59" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Skills Section -->
-
-   <!-- ======= Portfolio Section ======= -->
-   <section id="portfolio" class="portfolio section-bg">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Projets Personnel</h2>
-        <p>
-          Actuellement, je développe <a href='https://jeanluckndato.blogspot.com/'>Crack Intelligence</a>, une communauté virtuelle regroupant des chercheurs en IA et une plateforme d'assistance technique. 
-          Notre objectif est de mutualiser les compétences et d'apporter une aide concrète aux techniciens confrontés à des problèmes professionnels.
-          <br>
-          En parallèle, j'ai fondé l'association <a href="https://geekstudyn.blogspot.com"> Geekstudy</a>, qui a pour mission de collecter et de redistribuer du matériel informatique (serveurs, points d'accès, ordinateurs, consoles rétro...) 
-          à des écoles et universités en République Démocratique du Congo en situation de manque.
-        </p>
-      </div>
-      <div class="row" data-aos="fade-up">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Hyperviseur</li>
-            <li data-filter=".filter-card">Network</li>
-            <li data-filter=".filter-web">Programmation</li>
-         </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>
+                Ingénieur Cybersécurité, Développeur Full-Stack & Administrateur
+                Systèmes
+              </h3>
+              <p class="fst-italic">
+                En tant que Développeur Full-Stack, je gère l'ensemble du cycle
+                de développement logiciel, du Front-end au Back-end. Je maîtrise
+                des technologies clés comme Node.js, React et Bootstrap. Mon
+                expertise inclut également la sécurisation des applications web,
+                où je corrige des vulnérabilités critiques (XSS, injections SQL)
+                et intègre de nouvelles fonctionnalités pour une expérience
+                utilisateur optimale.
+              </p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Blog:</strong>
+                      <a href="https://jeanluckndato.blogspot.com"
+                        ><span>JeanLuck Ndato</span></a
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong>
+                      <a href="https://geekstudyn.blogspot.com"
+                        ><span>www.geekstudy.com</span></a
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Téléphone:</strong> <span>+243 976 510 588</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Ville:</strong> <span>Goma, RD Congo</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong>Âge:</strong>
+                      <span>Err404</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Diplôme:</strong> <span>Licence</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span>
+                        <a href="mailto:jeanlucndato@gmail.com"
+                          >jeanlucndato@gmail.com</a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Disponibilité:</strong> <span>Freelance</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                Actuellement technicien système, réseau et Datacenter en
+                alternance chez Konnect-Goma, mes missions incluent la gestion
+                du parc informatique, le support technique aux utilisateurs
+                (helpdesk, résolution d'incidents) et l'administration de réseau
+                local. Je surveille également la disponibilité des services
+                hébergés dans notre Datacenter.
+              </p>
+              <p>
+                Mes compétences couvrent l'exploitation et la maintenance
+                d'équipements réseau (switches, routeurs, firewalls), le suivi
+                de la QoS et de la bande passante, la gestion des technologies
+                VSAT (installation, dépannage), et la supervision des liaisons
+                IP/MPLS et VPN. Je contribue aussi à la maintenance
+                d'infrastructure Datacenter (alimentation, environnement,
+                câblage).
+              </p>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End About Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+      <!-- ======= Facts Section ======= -->
+      <section id="facts" class="facts">
+        <div class="container">
+          <div class="section-title">
+            <h2>Quelques Chiffres Clés</h2>
+            <p>
+              Grâce à ma solide expertise en conception, installation et
+              configuration de réseaux LAN/WAN, ma priorité est d'assurer la
+              stabilité et la sécurité des infrastructures. Je préviens
+              activement les pannes et j'optimise les performances pour garantir
+              une expérience utilisateur fluide et une disponibilité constante
+              des services. Ces chiffres illustrent l'impact de mon travail.
+            </p>
+          </div>
+
+          <div class="row no-gutters">
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch aos-init aos-animate"
+              data-aos="fade-up"
+            >
+              <div class="count-box p-3">
+                <i class="bi bi-emoji-smile"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="232"
+                  data-purecounter-duration="0"
+                  class="purecounter"
+                  >232</span
+                >
+                <p>
+                  <strong>Sécurité des Systèmes & Utilisateurs</strong>
+                  Responsable de la réduction proactive du risque de
+                  cyberattaques, notamment par l'implémentation de politiques de
+                  mises à jour automatiques et la formation de plus de 200
+                  employés aux meilleures pratiques de sécurité de
+                  l'information.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="count-box p-3">
+                <i class="bi bi-journal-richtext"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="121"
+                  data-purecounter-duration="0"
+                  class="purecounter"
+                  >12</span
+                >
+                <p>
+                  <strong>Gestion de Projets Techniques</strong>
+                  Prise en charge de la réalisation d'une douzaine de nouveaux
+                  projets d'applications web. Assure également le support
+                  applicatif et la maintenance pour un portefeuille
+                  d'applications existantes, et a conduit plusieurs projets
+                  d'implémentation réseau complexes (LAN2LAN, VRRP, MAN).
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="count-box p-3">
+                <i class="bi bi-headset"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1453"
+                  data-purecounter-duration="0"
+                  class="purecounter"
+                  >1453</span
+                >
+                <p>
+                  <strong>Support Technique Avancé</strong>
+                  Garantit une excellente qualité de service et satisfaction
+                  client en fournissant un support technique constant, avec un
+                  score moyen supérieur de 18% à la moyenne dans les sondages
+                  post-appel.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="count-box p-3">
+                <i class="bi bi-people"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="32"
+                  data-purecounter-duration="0"
+                  class="purecounter"
+                  >32</span
+                >
+                <p>
+                  <strong>Analyse et Défense Cyber</strong>
+                  Spécialisé dans l'analyse de risques, l'analyse de logiciels
+                  malveillants, et la détection d'intrusion. Utilise des scripts
+                  Python et des techniques d'analyse de données pour renforcer
+                  la posture de sécurité.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Facts Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Compétences Techniques</h2>
+            <p>
+              Mon expertise se concentre sur l'ingénierie des réseaux robustes
+              et la cybersécurité proactive, complétée par de solides
+              compétences en administration système et en développement. Je suis
+              capable de concevoir, déployer et sécuriser des infrastructures
+              complexes. Mon approche combine une maîtrise technique approfondie
+              avec une capacité à résoudre des problèmes critiques et à
+              collaborer efficacement.
+            </p>
+          </div>
+
+          <div class="row skills-content">
+            <div class="col-lg-6" data-aos="fade-up">
+              <div class="progress">
+                <span class="skill"
+                  >Ingénierie Réseau & Télécoms <i class="val">99.91%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >Sécurité des Systèmes (Cybersécurité)
+                  <i class="val">95%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >Administration Linux (Parrot OS, Debian)
+                  <i class="val">93%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="93"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="progress">
+                <span class="skill"
+                  >Réseaux Cloud & Architectures Distribuées
+                  <i class="val">90%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >Scripting & Automatisation (Python)
+                  <i class="val">80%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"
+                  >Virtualisation & Environnements Conteneurisés
+                  <i class="val">70%</i></span
+                >
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Skills Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+      <!-- ======= Portfolio Section ======= -->
+      <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Projets Personnels</h2>
+            <p>
+              Je m'investis activement dans plusieurs projets personnels qui
+              reflètent ma passion pour la technologie et mon engagement social.
+              <br />
+              <br />
+              Actuellement, je développe
+              <a href="https://jeanluckndato.blogspot.com/"
+                >Crack Intelligence</a
+              >, une communauté et plateforme d'assistance technique. Elle
+              rassemble des chercheurs en IA pour mutualiser les compétences et
+              offrir un support concret aux professionnels de la tech.
+              <br />
+              En parallèle, j'ai fondé l'association
+              <a href="https://geekstudyn.blogspot.com">Geekstudy</a>. Notre
+              mission est de collecter et redistribuer du matériel informatique
+              (serveurs, points d'accès, ordinateurs, consoles rétro, etc.) aux
+              écoles et universités de la République Démocratique du Congo qui
+              en ont le plus besoin.
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">Tout</li>
+                <li data-filter=".filter-app">D.C</li>
+                <li data-filter=".filter-card">Réseaux</li>
+                <li data-filter=".filter-web">Programmation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-1.jpg"
+                  class="img-fluid"
+                  alt="Projet Hyperviseur 1"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-1.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Hyperviseur 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-2.jpg"
+                  class="img-fluid"
+                  alt="Projet Programmation 1"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-2.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Programmation 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-3.jpg"
+                  class="img-fluid"
+                  alt="Projet Hyperviseur 2"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-3.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Hyperviseur 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-4.jpg"
+                  class="img-fluid"
+                  alt="Projet Réseau 1"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-4.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Réseau 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-5.jpg"
+                  class="img-fluid"
+                  alt="Projet Programmation 2"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-5.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Programmation 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-6.jpg"
+                  class="img-fluid"
+                  alt="Projet Hyperviseur 3"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-6.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Hyperviseur 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-7.jpg"
+                  class="img-fluid"
+                  alt="Projet Réseau 2"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-7.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Réseau 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-8.jpg"
+                  class="img-fluid"
+                  alt="Projet Réseau 3"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-8.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Réseau 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/portfolio/portfolio-9.jpg"
+                  class="img-fluid"
+                  alt="Projet Programmation 3"
+                />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-9.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Programmation 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="portfolio-details.html" title="Plus de détails"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Portfolio Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>Mes Services</h2>
+            <p>
+              J'offre une gamme complète de services en ingénierie logicielle,
+              réseau et IT, axés sur la performance, la fiabilité et
+              l'innovation. Mon expertise couvre la conception et le
+              développement d'applications, l'administration de systèmes
+              complexes, la gestion d'infrastructures Cloud, et l'optimisation
+              des flux de travail par l'automatisation.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-code-slash"></i></div>
+              <h4 class="title"><a href="">Développement Full-Stack</a></h4>
+              <p class="description">
+                Conception et développement complet d'applications web
+                (Front-end avec HTML, CSS, JavaScript, React, Bootstrap ;
+                Back-end avec Python, Node.js, PHP, Ruby) incluant la gestion de
+                bases de données et d'API.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="bi bi-server"></i></div>
+              <h4 class="title">
+                <a href="">Administration Systèmes Multi-OS</a>
+              </h4>
+              <p class="description">
+                Gestion, maintenance et dépannage d'applications sur serveurs et
+                postes de travail sous diverses plateformes (Windows Server,
+                Clients, Linux). Inclut la gestion des correctifs et
+                l'optimisation des performances.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon"><i class="bi bi-cloud"></i></div>
+              <h4 class="title">
+                <a href="">Ingénierie Réseau & Virtualisation</a>
+              </h4>
+              <p class="description">
+                Conception et simulation de topologies réseau complexes (GNS3).
+                Déploiement et administration d'hyperviseurs (VMware, XenServer)
+                pour l'installation et la gestion de systèmes Windows et Linux
+                virtualisés.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="bi bi-database"></i></div>
+              <h4 class="title">
+                <a href="">Bases de Données & Conteneurisation</a>
+              </h4>
+              <p class="description">
+                Optimisation et gestion de bases de données (MySQL, SQL,
+                PostgreSQL) et mise en œuvre d'environnements conteneurisés
+                (Docker, Docker-Compose) pour le déploiement et le test
+                d'applications.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="icon"><i class="bi bi-gear"></i></div>
+              <h4 class="title">
+                <a href="">Intégration & Livraison Continue (CI/CD)</a>
+              </h4>
+              <p class="description">
+                Mise en place et administration de pipelines CI/CD (GitLab,
+                Jenkins) pour l'automatisation des tests, l'intégration et le
+                déploiement continu d'applications web.
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon"><i class="bi bi-headset"></i></div>
+              <h4 class="title"><a href="">Support IT & Automatisation</a></h4>
+              <p class="description">
+                Assistance aux utilisateurs professionnels face aux problèmes
+                d'infrastructure et d'outils. Identification et implémentation
+                d'opportunités d'automatisation et de solutions Cloud pour
+                optimiser les opérations.
+              </p>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Services Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Témoignages</h2>
+            <p>
+              Ces témoignages proviennent de professionnels de confiance et
+              d'encadrants avec qui j'ai collaboré durant mon parcours
+              académique et professionnel en tant qu'ingénieur réseaux et
+              développeur système. Ils reflètent mon engagement et les relations
+              établies lors de projets, stages et études.
+            </p>
+          </div>
+
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item" data-aos="fade-up">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Je suis très heureux pour toi et te félicite vraiment : tu
+                    n'as rien lâché et tu as eu raison ! De nouvelles
+                    perspectives s'offrent à toi.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt="Photo de Eurasme MILANDO"
+                  />
+                  <h3>Eurasme MILANDO</h3>
+                  <h4>CEO &amp; Fondateur I.S.E.S.O.D</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    J’ai cherché l’aide d’un professionnel et je l’ai eu, mais
+                    j’ai eu bien plus que ça. J’ai ressenti un grand désir de
+                    vous recommander à cause de vos excellents services
+                    professionnels.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-2.png"
+                    class="testimonial-img"
+                    alt="Photo de Oline SADIKI"
+                  />
+                  <h3>Oline SADIKI</h3>
+                  <h4>Manager Konnect-Goma</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Tes années d'études n'ont pas été vaines. Tu as acquis de
+                    solides compétences et une expérience précieuse qui te
+                    permettront d'atteindre tes objectifs professionnels. Ton
+                    courage, ta détermination et ton talent te mèneront loin.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt="Photo de Bienfait PALUKU"
+                  />
+                  <h3>Bienfait PALUKU</h3>
+                  <h4>D.T Orange-RDC</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Je vous encourage et vous félicite grandement pour tout le
+                    support, le respect et le professionnalisme lors de tous nos
+                    entretiens, Courage NDATO.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt="Photo de Ir Lambert MWAMBA"
+                  />
+                  <h3>Ir Lambert MWAMBA</h3>
+                  <h4>D.T EMS-NordKivu</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    "JEANLUCK, je suis très fier de votre travail en
+                    cybersécurité et réseau informatique. Vous avez fait preuve
+                    d'une expertise remarquable et vous êtes un véritable atout
+                    pour notre équipe. Continuez ainsi !"
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt="Photo de Ir Aaron VUTSURA"
+                  />
+                  <h3>Ir Aaron VUTSURA</h3>
+                  <h4>D.T Royikems Inc</h4>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="testimonial-item"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    "Félicitations JEANLUCK NDATO pour votre excellent travail!
+                    Votre contribution à l'entreprise est remarquable et je suis
+                    convaincu que vous continuerez à exceller."
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-6.jpg"
+                    class="testimonial-img"
+                    alt="Photo de SEKOMBI KATONDOLO"
+                  />
+                  <h3>SEKOMBI KATONDOLO</h3>
+                  <h4>CEO &amp; Fondateur MUTAANI Corp</h4>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>
+              N'hésitez pas à me contacter pour toute information
+              supplémentaire, une opportunité de collaboration, ou simplement
+              pour échanger sur nos expériences. Je serais ravi de discuter avec
+              vous !
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Localisation :</h4>
+                  <p>Goma, Nord-Kivu, Rép. Dém. du Congo</p>
+                </div>
+
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email :</h4>
+                  <p>jeanlucndato@gmail.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Téléphone :</h4>
+                  <p>+243 976 510 588</p>
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6010009668383!2d29.2215848!3d-1.6669913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1994b63e00000001%3A0x6333333333333333!2sGoma%2C%20North%20Kivu%2C%20Democratic%20Republic%20of%20the%20Congo!5e0!3m2!1sen!2scd!4v1700000000000!5m2!1sen!2scd"
+                  width="400"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Votre Nom</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="email">Votre Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Sujet</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="text-center">
+                  <button type="submit">Envoyer le message</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-links">
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Portfolio Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>
-            Travailler avec les utilisateurs professionnels au cas où ils seraient confrontés à des problèmes concernant l'infrastructure des outils, la communication avec les agents et la livraison de logiciels
-            Gestion et correction d'application sur les serveurs et les postes de travail de diverses plates-formes de système d'exploitation (Windows Server et Clients, Linux,..)
-            la conception et livraison de logiciels, la gestion des correctifs et la découverte sur les outils pris en charge
-            Analyse des performances des applications et des causes profondes, Identifier et mettre en oeuvre les opportunités d'automatisation et de solution Cloud
-          </p>
+        <div class="copyright">
+          &copy; Copyright
+          <strong
+            ><span
+              ><a href="https://jeanluckndato.blogspot.com">
+                jeanlucndato</a
+              ></span
+            ></strong
+          >
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Service Web</a></h4>
-            <p class="description">
-              Capable de concevoir ou configurer principalement les aspects : Front-end : HTML, CSS, JavaScript (notamment avec un framework de type bootstrap, react, Goolang.js…).
-               Back-end, base de données, API (Python, Ruby, PHP, Nodejs,…)
-              Architecture et infrastructure, choix des outils, technos, logiciels, systèmes d’exploitation etc.  
-            </p>  
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Environnement</a></h4>
-            <p class="description">
-              Backbone.js, TypeScript, CodeKit, Github, CodePen, Visual Studio Code, Electron, Mustache, bootstrap
-              Nginx, React.js,Laravel, Android SDK,MySQL/MariaDB, 
-            </p>  
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Network Hyper-V</a></h4>
-            <p class="description">
-              Apres avoir mis en place toute la topologie Network et Simulé le reseau avec l'outil GNS3, j'utilise certains des outils de virtualisation tel que VmWare et XenServer, sur lesquels 
-              j'installe les fonctionnalités de système d'exploitation serveur Windows et Linux
-            </p> 
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Administration et bases de données</a></h4>
-            <p class="description">
-              Lancement des tests en parallèles sur plusieurs navigateurs avec l’aide de
-serveurs esclaves, Utilisation de Docker-Compose pour créer les images Docker et lier les
-applications à des bases de données comme (MYSQL, SQL, Postgress,..), 
-            </p>  
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Cloud CI/CD</a></h4>
-            <p class="description">
-              Utilisation de GitLab pour mettre à jour les tests de web services, Création de pipeline pour l’intégration et la livraison continue du
-              développement du site web, Mise en place et configuration de Jenkins, Maintenance et mise à jour des tests avec Docker, Eclipse et Jenkins. 
-            </p>  
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Full Stack Dev</a></h4>
-            <p class="description">
-              Développement de l'intégration d'applications avec REST/SOAP et d'autres API pour Google Maps, 
-              les connexions aux réseaux sociaux, les processeurs de paiement et d'autres services.
-            </p>  
-          </div>
+        <div class="credits">
+          Designed by
+          <a href="https://jeanluckndato.blogspot.com"> jeanlucndato</a>
         </div>
-
       </div>
-    </section><!-- End Services Section -->
+    </footer>
+    <!-- End  Footer -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-        <div class="section-title">
-          <h2>Témoignages</h2>
-          <p>
-            Ces témoignages ces bases sur des événements professionnels ainsi que sur mon parcours académique en tant que Ingénieurs réseaux et développeurs système, ces sont des gens des confiances avec qui j'ai travaillé et certains qui mon encadrent dans mes études, stage et des projets personnelles
-          </p>  
-        </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Je suis très heureux pour toi et te félicite vraiment :
- tu n'as rien lâché et tu as eu raison ! De nouvelles perspectives 
-s'offrent à toi.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Eurasme MILANDO</h3>
-                <h4>Ceo &amp; Founder I.S.E.S.O.D</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  J’ai cherché l’aide d’un professionnel et je l’ai eu, 
- mais j’ai eu bien plus que ça. J’ai ressenti un grand désir de vous 
-récommande a cause de vos excellents services professionnels.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.png" class="testimonial-img" alt="">
-                <h3>Oline SADIKI</h3>
-                <h4>Manager konnect-Goma</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Tes années d'études n'ont pas été vaines. 
-                  Tu as acquis de solides compétences et une expérience précieuse qui te permettront d'atteindre tes objectifs professionnels.
-                  Ton courage, ta détermination et ton talent te mèneront loin.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Bienfait PALUKU</h3>
-                <h4>D.T Orange-RDC</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Je vous encourage et vous félicite  grandement pour tout le support, le 
-respect et le professionnalisme lors de tous nos entretiens, Courage NDATO.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Ir Lambert MWAMBA</h3>
-                <h4>D.T EMS-NordKivu</h4>  
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  "JEANLUCK, je suis très fier de votre travail en cybersécurité et réseau informatique. 
-                  Vous avez fait preuve d'une expertise remarquable et vous êtes un véritable atout pour notre équipe. Continuez ainsi !"
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Ir Aaron VUTSURA</h3>
-                <h4>D.T Royikems Inc</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  "Félicitations JEANLUCK NDATO pour votre excellent travail! Votre contribution 
-                  à l'entreprise est remarquable et je suis convaincu que vous continuerez à exceller."
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
-                <h3>SEKOMBI KATONDOLO </h3>
-                <h4>Ceo &amp; Founder MUTAANI corp</h4>
-
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-   <!-- ======= Contact Section ======= -->
-   <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>
-          Je suis à votre disposition pour vous fournir toute information supplémentaire, ou pour parler et échanger 
-          d'expériences, ce qui me ferait énormément plaisir 🤗...
-        </p>
-      </div>
-
-      <div class="row" data-aos="fade-in">
-
-        <div class="col-lg-5 d-flex align-items-stretch">
-          <div class="info">
-            <div class="address">
-              <i class="bi bi-geo-alt"></i>
-              <h4>Location:</h4>
-              <p>Rep Dem Congo, N-K, GOMA AL:117</p>
-            </div>
-
-            <div class="email">
-              <i class="bi bi-envelope"></i>
-              <h4>Email:</h4>
-              <p>jeanlucndato@gmail.com</p>
-            </div>
-
-            <div class="phone">
-              <i class="bi bi-phone"></i>
-              <h4>Appel:</h4>
-              <p>+243 976 510 588</p>
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.087793829711!2d29.23335081431729!3d-1.687585936670468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd09efd429e21b%3A0xa194bcad88e49178!2sO-KONECT%20Congo!5e0!3m2!1sen!2scd!4v1681296743810!5m2!1sen!2scd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-
-        </div>
-
-        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-          <form action="" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="form-group col-md-6">
-                <label for="name">Votre Nom</label>
-                <input type="text" name="name" class="form-control" id="name" required>
-              </div>
-              <div class="form-group col-md-6">
-                <label for="name">Votre Email</label>
-                <input type="email" class="form-control" name="email" id="email" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="name">Subjet</label>
-              <input type="text" class="form-control" name="subject" id="subject" required>
-            </div>
-            <div class="form-group">
-              <label for="name" id="message">Message</label>
-              <textarea class="form-control" name="message" rows="10" required></textarea>
-            </div>
-            
-            <div class="text-center"><button type="submit" onclick="sendMail()">Send Message</button></div>
-          </form>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span><a href='https://jeanluckndato.blogspot.com'> jeanlucndato</a></span></strong>
-      </div>
-      <div class="credits">
-         Designed by <a href='https://jeanluckndato.blogspot.com'> jeanlucndato</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
