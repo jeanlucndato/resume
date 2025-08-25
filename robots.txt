@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeanlucndato.github.io/resume/sitemap.xml
